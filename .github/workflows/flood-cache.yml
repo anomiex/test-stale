@@ -1,0 +1,159 @@
+name: Flood cache
+on:
+  workflow_dispatch:
+
+jobs:
+  flood:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "ok" > foo.txt
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s1
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s2
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s3
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s4
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s5
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s6
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s7
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s8
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s9
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s10
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s11
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s12
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s13
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s14
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s15
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s16
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s17
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s18
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s19
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s20
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s21
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s22
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s23
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s24
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s25
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s26
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s27
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s28
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s29
+
+      - uses: actions/cache/save@v3
+        with:
+          path: foo.txt
+          key: cache-${{ github.run_id }}-s30
